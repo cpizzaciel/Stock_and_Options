@@ -8,3 +8,8 @@ Monte-Carlo simulation, and options pricing.
 Added stock price data fetching function.  
 Added stock daily return calculation.  
 Added calculation of correlation matrix between different stocks.
+
+
+## 2. Modeling and Simulation
+
+Added monte-carlo simulation function
