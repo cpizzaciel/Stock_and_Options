@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="add stock price fetching feature to main.py">
-      <change afterPath="$PROJECT_DIR$/utils/return_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/stock_price_fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/stock_price_fetcher.py" afterDir="false" />
+    <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="add stock return calculation">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="D:\PythonProjects\New_Finance_Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.return_calculation">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_Finance_Project" />
       <option name="ENV_FILES" value="" />
@@ -124,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.return_calculation" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.return_calculation" />
         <item itemvalue="Python.stock_price_fetcher" />
       </list>
     </recent_temporary>
@@ -146,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760648390650</updated>
-      <workItem from="1760648392240" duration="20911000" />
+      <workItem from="1760648392240" duration="21522000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -204,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760870187681</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add stock return calculation">
+      <option name="closed" value="true" />
+      <created>1760878635663</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760878635663</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,11 +222,12 @@
     <MESSAGE value="add utils package" />
     <MESSAGE value="add stock price fetching feature" />
     <MESSAGE value="add stock price fetching feature to main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stock price fetching feature to main.py" />
+    <MESSAGE value="add stock return calculation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stock return calculation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_Finance_Project$return_calculation.coverage" NAME="return_calculation Coverage Results" MODIFIED="1760878425292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$stock_price_fetcher.coverage" NAME="stock_price_fetcher Coverage Results" MODIFIED="1760869043958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1760876800770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1760879227548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
