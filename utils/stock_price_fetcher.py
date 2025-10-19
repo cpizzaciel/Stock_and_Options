@@ -10,7 +10,7 @@ def fetch_stock_price_history(ticker, period = '1y', interval = '1d'):
              actions = False, #Give dividends action or not
              threads = True, # Use multi-threads to increase download speed when multiple stocks
              ignore_tz = None, # ignore time zone or not
-             group_by = 'ticker', # column or ticker, group by data type or stock
+             group_by = 'column', # column or ticker, group by data type or stock
              auto_adjust = True, # auto adjust dividends and split, use True
              back_adjust = False, # No need to use this, auto adjust already
              repair = True, #repair false information from yahoo finance
