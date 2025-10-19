@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="add stock return calculation to main.py">
-      <change afterPath="$PROJECT_DIR$/utils/correlation_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="read.md update">
+      <change afterPath="$PROJECT_DIR$/modeling/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modeling/monte_carlo_simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/correlation_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/correlation_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   "keyToString": {
     "Python.correlation_analysis.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.monte_carlo_simulation.executor": "Run",
     "Python.return_calculation.executor": "Run",
     "Python.stock_price_fetcher.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -53,7 +55,7 @@
       <recent name="D:\PythonProjects\New_Finance_Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.monte_carlo_simulation">
     <configuration name="correlation_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_Finance_Project" />
       <option name="ENV_FILES" value="" />
@@ -92,6 +94,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="monte_carlo_simulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="New_Finance_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modeling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modeling/monte_carlo_simulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.monte_carlo_simulation" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.correlation_analysis" />
         <item itemvalue="Python.return_calculation" />
@@ -171,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760648390650</updated>
-      <workItem from="1760648392240" duration="25443000" />
+      <workItem from="1760648392240" duration="32413000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -253,7 +279,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760879434600</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add correlation matrix calculation to main.py">
+      <option name="closed" value="true" />
+      <created>1760883658348</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760883658348</updated>
+    </task>
+    <task id="LOCAL-00012" summary="read.md update">
+      <option name="closed" value="true" />
+      <created>1760883827584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760883827584</updated>
+    </task>
+    <task id="LOCAL-00013" summary="read.md update">
+      <option name="closed" value="true" />
+      <created>1760883941319</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760883941319</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,11 +316,14 @@
     <MESSAGE value="add stock price fetching feature to main.py" />
     <MESSAGE value="add stock return calculation" />
     <MESSAGE value="add stock return calculation to main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stock return calculation to main.py" />
+    <MESSAGE value="add correlation matrix calculation to main.py" />
+    <MESSAGE value="read.md update" />
+    <option name="LAST_COMMIT_MESSAGE" value="read.md update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_Finance_Project$return_calculation.coverage" NAME="return_calculation Coverage Results" MODIFIED="1760878425292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$stock_price_fetcher.coverage" NAME="stock_price_fetcher Coverage Results" MODIFIED="1760869043958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/New_Finance_Project$monte_carlo_simulation.coverage" NAME="monte_carlo_simulation Coverage Results" MODIFIED="1760895121018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modeling" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$correlation_analysis.coverage" NAME="correlation_analysis Coverage Results" MODIFIED="1760882901584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1760883620877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

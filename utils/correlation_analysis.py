@@ -7,7 +7,8 @@ from utils.return_calculation import calculate_returns
 def calculate_correlation(stock_return_data_df):
     return_df = stock_return_data_df['return']
     corr_df = return_df.corr()
-    return corr_df
+    cov_df = return_df.cov()
+    return cov_df, corr_df
 
 if __name__ == '__main__':
     test_tickers = ['NVDA', 'KO','GOOG']
