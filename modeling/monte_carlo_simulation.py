@@ -4,6 +4,9 @@ import pandas as pd
 from utils.stock_price_fetcher import fetch_stock_price_history
 from utils.return_calculation import calculate_returns
 
+
+#Need 5 inputs: s0, mu, covariance matrix, number of simulations, number of days
+#the last two numbers have default setting
 def run_monte_simulation(initial_price: pd.Series,
                          mean_returns: pd.Series,
                          cov_matrix: pd.DataFrame,
@@ -16,12 +19,18 @@ def run_monte_simulation(initial_price: pd.Series,
     s0 = initial_price.to_numpy()
     mu = mean_returns.to_numpy()
 
+
+#Cholesky decomposition
     try:
         L = np.linalg.cholesky(cov_matrix)
     except np.linalg.LinAlgError:
         print("Error: Covariance matrix is not positive definite.")
         return None
 
+
+#set initial simulation result dataframe.
+#using cholesky decomposition result to get random daily return
+#And calculate monte carlo simulation,multiple simulation is vectorized, days are through loop.
     simulation_results = np.zeros((num_days + 1, num_simulations, num_stocks)) # define the shape of the simulation
     simulation_results[0,:,:] = s0 #broadcast the initial stock prices to all simulations
     for day in range(1, num_days + 1):
@@ -32,6 +41,7 @@ def run_monte_simulation(initial_price: pd.Series,
 
         simulation_results[day,:,:] = simulation_results[day - 1,:,:] * (1 + daily_returns)
 
+# pd.MultiIndex, the way to generate multi-layers index. from_product: Cartesian product
     multi_index_cols = pd.MultiIndex.from_product(
         [range(num_simulations), tickers],
         names=['simulation', 'tickers']
