@@ -1,7 +1,9 @@
 import sys
+import pandas as pd
 
 import utils.stock_price_fetcher as spf
 import utils.return_calculation as rc
+import utils.correlation_analysis as cor
 
 
 if __name__ == "__main__":
@@ -14,4 +16,10 @@ if __name__ == "__main__":
         print("stock data fetched successfully")
     stock_return_data = rc.calculate_returns(stock_data)
     print("stock data with returns:")
-    print(stock_return_data)
+    print(stock_return_data.head())
+    if isinstance(stock_return_data.columns, pd.MultiIndex):
+        correlation_matrix = cor.calculate_correlation(stock_return_data)
+        print('correlation matrix calculated')
+        print(correlation_matrix)
+    else:
+        print('Only one stock data fetched')
