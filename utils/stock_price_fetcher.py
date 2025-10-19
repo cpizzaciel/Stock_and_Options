@@ -1,3 +1,6 @@
+# stock price fetching python file
+
+
 import yfinance as yf
 
 def fetch_stock_price_history(ticker, period = '1y', interval = '1d'):
