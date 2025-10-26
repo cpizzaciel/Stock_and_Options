@@ -15,10 +15,7 @@ def calculate_historical_volatility(stock_data: pd.DataFrame, window:int = 252):
     daily_std = returns.std()
     annualized_volatility = daily_std * np.sqrt(window)
     # See if it's a pandas.Series. Only need the value
-    if isinstance(annualized_volatility, pd.Series):
-        return annualized_volatility.item()
-    else:
-        return annualized_volatility
+    return annualized_volatility
 
 def eu_option_pricing(
         underlying_price: float,
@@ -66,6 +63,7 @@ if __name__ == '__main__':
 
     # historical volatility
     sigma = calculate_historical_volatility(hist_data)
+    sigma = sigma.item()
 
     # set K, t, r manually
     K = S*1.05

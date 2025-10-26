@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="add Monte-Carlo simulation function">
-      <change afterPath="$PROJECT_DIR$/modeling/option_pricing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/visualisation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/New_Finance_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New_Finance_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="add option pricing function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling/option_pricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/option_pricing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +203,7 @@
       <workItem from="1760648392240" duration="35734000" />
       <workItem from="1761178247416" duration="2925000" />
       <workItem from="1761501992060" duration="36000" />
-      <workItem from="1761502044933" duration="7525000" />
+      <workItem from="1761502044933" duration="9441000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -327,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760901763764</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add option pricing function">
+      <option name="closed" value="true" />
+      <created>1761513085214</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761513085214</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,14 +349,15 @@
     <MESSAGE value="add correlation matrix calculation to main.py" />
     <MESSAGE value="read.md update" />
     <MESSAGE value="add Monte-Carlo simulation function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Monte-Carlo simulation function" />
+    <MESSAGE value="add option pricing function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add option pricing function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_Finance_Project$return_calculation.coverage" NAME="return_calculation Coverage Results" MODIFIED="1760878425292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/New_Finance_Project$option_pricing.coverage" NAME="option_pricing Coverage Results" MODIFIED="1761512689231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modeling" />
+    <SUITE FILE_PATH="coverage/New_Finance_Project$option_pricing.coverage" NAME="option_pricing Coverage Results" MODIFIED="1761514576039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modeling" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$stock_price_fetcher.coverage" NAME="stock_price_fetcher Coverage Results" MODIFIED="1760869043958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$monte_carlo_simulation.coverage" NAME="monte_carlo_simulation Coverage Results" MODIFIED="1760895121018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modeling" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$correlation_analysis.coverage" NAME="correlation_analysis Coverage Results" MODIFIED="1760882901584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1760901723007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1761514475726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
