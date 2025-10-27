@@ -7,7 +7,7 @@ import utils.return_calculation as rc
 import utils.correlation_analysis as cor
 import modeling.monte_carlo_simulation as mc
 import modeling.option_pricing as op
-import utils.visualisation as vis
+import utils.visualization as vis
 
 
 if __name__ == "__main__":
