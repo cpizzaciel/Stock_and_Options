@@ -1,11 +1,13 @@
 import sys
 import pandas as pd
+import matplotlib.pyplot as plt
 
 import utils.stock_price_fetcher as spf
 import utils.return_calculation as rc
 import utils.correlation_analysis as cor
 import modeling.monte_carlo_simulation as mc
 import modeling.option_pricing as op
+import utils.visualisation as vis
 
 
 if __name__ == "__main__":
@@ -76,4 +78,19 @@ if __name__ == "__main__":
             for key, value in option_values.items():
                 print(f"{key.capitalize():<10}: {value:.4f}") # <10：alignment  .4f: keep 4 digits after decimal
 
-# To be continued
+# Visualization
+# plot monte carlo simulation
+    if simulation_df is not None:
+        first_ticker = tickers[0]
+        first_ticker_sim_df = simulation_df.loc[:, (slice(None), first_ticker)]
+        vis.plot_monte_carlo(
+            first_ticker_sim_df,
+            title=f"Monte Carlo Simulation for {first_ticker}"
+        )
+
+        vis.simulation_price_distribution(
+            simulation_df,
+            title=f"Final Day Price Distribution ({simulations} simulations, {days} days)"
+        )
+
+        plt.show()

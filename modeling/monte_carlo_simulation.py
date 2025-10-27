@@ -44,7 +44,7 @@ def run_monte_simulation(initial_price: pd.Series,
 # pd.MultiIndex, the way to generate multi-layers index. from_product: Cartesian product
     multi_index_cols = pd.MultiIndex.from_product(
         [range(num_simulations), tickers],
-        names=['simulation', 'tickers']
+        names=['simulation', 'ticker']
     )
 
     results_reshaped = simulation_results.reshape(num_days + 1, -1)

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb5e5107-71c3-47d3-aae1-88310276848b" name="Changes" comment="add option pricing function to main.py">
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/visualisation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
     "Python.return_calculation.executor": "Run",
     "Python.stock_price_fetcher.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/PythonProjects/New_Finance_Project",
     "node.js.detected.package.eslint": "true",
@@ -47,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "PyScientificConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,7 +60,7 @@
       <recent name="D:\PythonProjects\New_Finance_Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.option_pricing">
+  <component name="RunManager" selected="Python.main">
     <configuration name="correlation_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_Finance_Project" />
       <option name="ENV_FILES" value="" />
@@ -174,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.option_pricing" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.option_pricing" />
         <item itemvalue="Python.monte_carlo_simulation" />
         <item itemvalue="Python.correlation_analysis" />
         <item itemvalue="Python.return_calculation" />
@@ -201,7 +205,7 @@
       <workItem from="1760648392240" duration="35734000" />
       <workItem from="1761178247416" duration="2925000" />
       <workItem from="1761501992060" duration="36000" />
-      <workItem from="1761502044933" duration="10486000" />
+      <workItem from="1761502044933" duration="15627000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -339,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761514901760</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add option pricing function to main.py">
+      <option name="closed" value="true" />
+      <created>1761515784854</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761515784854</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +377,6 @@
     <SUITE FILE_PATH="coverage/New_Finance_Project$stock_price_fetcher.coverage" NAME="stock_price_fetcher Coverage Results" MODIFIED="1760869043958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$monte_carlo_simulation.coverage" NAME="monte_carlo_simulation Coverage Results" MODIFIED="1760895121018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modeling" />
     <SUITE FILE_PATH="coverage/New_Finance_Project$correlation_analysis.coverage" NAME="correlation_analysis Coverage Results" MODIFIED="1760882901584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1761514475726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Finance_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1761524456946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

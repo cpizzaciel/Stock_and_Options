@@ -30,4 +30,8 @@ the"eu_option_pricing" function calculates option price and the Greeks.
 expiration date is in format: "YYYY-MM-DD".
 option_type: str = 'c', 'c' for call option, 'p' for put option
 default dividends is 0.
-        
+
+## 3. Visualization
+
+Added visualization function to utils.
+including Monte-Carlo simulation paths and final price distributions.
